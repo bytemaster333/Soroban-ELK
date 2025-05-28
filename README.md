@@ -42,27 +42,21 @@ SCI is composed of the following components:
 
 > SCI supports Linux/macOS and can be deployed with a single script (coming soon!).
 
+### 1. Clone the repository:
 ```bash
-# 1. Clone the repository:
 git clone https://github.com/bytemaster333/Soroban-ELK.git
 cd Soroban-ELK
-
-# 2. Run the setup script:
-./install.sh
-
-# 3. Start using SCI:
-# - Open Kibana on http://localhost:5601
-# - Monitor CLI & RPC command logs in real time
-# - Set up alerts under the "Alert Manager" dashboard
 ```
+### 2. Run the setup script:
+```bash
+./install.sh
+```
+### 3. Start using SCI:
+- Open Kibana on http://localhost:5601
+- Monitor CLI & RPC command logs in real time
+- Set up alerts under the "Alert Manager" dashboard
 
 > ℹ️ Detailed installation instructions will be added soon.
-
----
-
-## 📈 Demo & Screenshots
-
-_🚧 Coming Soon: Live demo and dashboard examples_
 
 ---
 
@@ -70,26 +64,6 @@ _🚧 Coming Soon: Live demo and dashboard examples_
 
 📥 Track SCI download stats here:  
 [https://tooomm.github.io/github-release-stats/?username=bytemaster333&repository=Soroban-ELK](https://tooomm.github.io/github-release-stats/?username=bytemaster333&repository=Soroban-ELK)
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! If you'd like to improve the CLI logger, expand RPC coverage, or enhance dashboard visualizations:
-
-```bash
-# 1. Fork the repo
-# 2. Create your feature branch:
-git checkout -b feature/new-feature
-
-# 3. Commit your changes:
-git commit -m 'Add new feature'
-
-# 4. Push to the branch:
-git push origin feature/new-feature
-
-# 5. Submit a pull request
-```
 
 ---
 
