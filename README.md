@@ -40,7 +40,7 @@ SCI is composed of the following components:
 
 ## 📦 Installation
 
-> SCI supports Linux/macOS and can be deployed with a single script (coming soon!).
+> SCI supports Linux/macOS and can be deployed with a single script.
 
 ### 1. Clone the repository:
 ```bash
