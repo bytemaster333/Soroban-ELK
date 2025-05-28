@@ -38,27 +38,34 @@ SCI is composed of the following components:
 
 ---
 
-## 📦 Installation
+## 📦 Installation (macOS & Ubuntu)
 
-> SCI supports Linux/macOS and can be deployed with a single script.
+You can install Soroban-ELK by downloading the appropriate installer script from the latest release.
 
-### 1. Clone the repository:
-```bash
-git clone https://github.com/bytemaster333/Soroban-ELK.git
-cd Soroban-ELK
-```
-### 2. Run the setup script:
-```bash
-./install.sh
-```
-### 3. Start using SCI:
-- Open Kibana on http://localhost:5601
-- Monitor CLI & RPC command logs in real time
-- Set up alerts under the "Alert Manager" dashboard
+### 🔗 Download
 
-> ℹ️ Detailed installation instructions will be added soon.
+Go to the [release page](https://github.com/bytemaster333/Soroban-ELK/releases/tag/release-v1.0) and download the installation script that matches your system:
+
+- [Download for macOS](https://github.com/bytemaster333/Soroban-ELK/releases/download/release-v1.0/MACOS_install.sh)
+- [Download for Ubuntu](https://github.com/bytemaster333/Soroban-ELK/releases/download/release-v1.0/UBUNTU_install.sh)
 
 ---
+
+### 🛠 Installation Steps
+
+#### macOS
+```bash
+curl -LO https://github.com/bytemaster333/Soroban-ELK/releases/download/release-v1.0/MACOS_install.sh
+chmod +x MACOS_install.sh
+./MACOS_install.sh
+```
+
+#### Linux
+```bash
+curl -LO https://github.com/bytemaster333/Soroban-ELK/releases/download/release-v1.0/UBUNTU_install.sh
+chmod +x UBUNTU_install.sh
+./UBUNTU_install.sh
+```
 
 ## 📊 GitHub Release Stats
 
